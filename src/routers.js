@@ -8,7 +8,7 @@ const routes = [
     path: "/",
     element: <AuthRequired />,
     children: [
-      { path: "/", element: <Home />, breadcrumb: "Home" },
+      { path: "/", element: <Dashboard />, breadcrumb: "Dashboard" },
       { path: "/dashboard", element: <Dashboard />, breadcrumb: "Dashboard" },
       { path: "/document", element: <Document />, breadcrumb: "Document" },
       {
