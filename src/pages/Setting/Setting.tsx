@@ -9,6 +9,9 @@ import "./Setting.less";
 import MyAccount from "./MyAccount/MyAccount";
 import CompanyInfo from "./CompanyInfo/CompanyInfo";
 import NotificationPreference from "./NotificationPreference/NotificationPreference";
+import Document from "./Document/Document";
+import PaymentMethod from "./PaymentMethod/PaymentMethod";
+import Language from "./Language/Language";
 
 const Setting = () => {
   return (
@@ -53,17 +56,17 @@ const Setting = () => {
               {
                 label: "Document Verification",
                 key: 4,
-                children: "Content children 1"
+                children: <Document/>
               },
               {
                 label: "Payment Methods",
                 key: 5,
-                children: "Content children 1"
+                children: <PaymentMethod/>
               },
               {
                 label: "Language and Region",
                 key: 6,
-                children: "Content children 1"
+                children: <Language/>
               }
             ]}
           ></Tabs>

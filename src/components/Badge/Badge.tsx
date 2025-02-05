@@ -43,13 +43,13 @@ const Badge = (props) => {
         setText("Bid Accepted");
         setColor("rgba(185, 141, 88, 0.8)");
         break;
-  case "completed":
+      case "completed":
         setText("Completed");
         setColor("#00A060");
         break;
       default:
-        setText("Unknown");
-        setColor("gray");
+        setText("Approved");
+        setColor("#00A060");
     }
   }, [status]);
 
@@ -64,11 +64,11 @@ const Badge = (props) => {
 };
 
 Badge.propTypes = {
-  status: PropTypes.string
+  status: PropTypes.string,
 };
 
 Badge.defaultProps = {
-  status: "pending"
+  status: "",
 };
 
 export default Badge;
