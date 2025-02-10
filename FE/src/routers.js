@@ -8,7 +8,11 @@ const routes = [
     path: "/",
     element: <AuthRequired />,
     children: [
+<<<<<<< HEAD:FE/src/routers.js
       { path: "", element: <Home />, breadcrumb: "Home" },
+=======
+      { path: "/", element: <Dashboard />, breadcrumb: "Dashboard" },
+>>>>>>> 50aaeb73b537a7627bc4614f239109d8edfe0c7b:src/routers.js
       { path: "/dashboard", element: <Dashboard />, breadcrumb: "Dashboard" },
       { path: "/document", element: <Document />, breadcrumb: "Document" },
       { path: "/chat", element: <Chat/>, breadcrumb: "Chat"},

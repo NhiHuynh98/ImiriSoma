@@ -27,7 +27,10 @@
     "react-slick": "^0.30.3",
     "react-sticky-box": "^2.0.5",
     "redux-thunk": "^3.1.0",
+<<<<<<< HEAD:FE/package.json
     "socket.io-client": "^4.8.1",
+=======
+>>>>>>> 50aaeb73b537a7627bc4614f239109d8edfe0c7b:package.json
     "styled-components": "^6.1.13",
     "use-react-router-breadcrumbs": "^4.0.1",
     "web-vitals": "^4.2.4"

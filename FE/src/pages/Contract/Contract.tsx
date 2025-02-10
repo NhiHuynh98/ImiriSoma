@@ -57,6 +57,7 @@ const Contract = () => {
                 <Row gutter={[12, 12]}>
                   <Col span={12}>
                     <Card
+                      style={{ padding: 16 }}
                       title={
                         <Flex
                           align="start"
@@ -119,6 +120,7 @@ const Contract = () => {
                   </Col>
                   <Col span={12}>
                     <Card
+                      style={{ padding: 16 }}
                       title={
                         <Flex
                           align="start"
@@ -188,7 +190,7 @@ const Contract = () => {
               children: (
                 <Flex>
                   <Card
-                    style={{ width: "100%" }}
+                    style={{ width: "100%", padding: 16 }}
                     title={
                       <Flex vertical style={{ width: "100%" }} gap="large">
                         <Flex justify="space-between">

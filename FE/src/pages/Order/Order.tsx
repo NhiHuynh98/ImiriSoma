@@ -45,7 +45,7 @@ const Order = () => {
               label: "Active Orders",
               key: "1",
               children: <Flex>
-                <Card title={
+                <Card style={{ padding: 16 }} title={
                     <Flex
                           align="start"
                           justify="space-between"
@@ -82,7 +82,7 @@ const Order = () => {
               label: "Completed Orders",
               key: "2",
               children: <Flex>
-                <Card title={
+                <Card style={{ padding: 16 }} title={
                     <Flex
                           align="start"
                           justify="space-between"
